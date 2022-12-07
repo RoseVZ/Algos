@@ -5,7 +5,7 @@ bool finishComparator(vector<pair<int,int>>f1,vector<pair<int,int>>f2)
     return f1.second>f2.second;
 }
 
-int activity(vector<int>s,vector<int>f)
+vector<int> activity(vector<int>s,vector<int>f)
 {
     vector<pair<int,int>> x,ans;
     for(int i=0;i<s.size();i++)
